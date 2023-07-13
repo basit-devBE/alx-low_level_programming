@@ -9,8 +9,6 @@
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
-
-	return (0);
+	printf("...but the outcome is a piece of art,\n");
+	return 0;
 }
-
