@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- * main - prints all single numbers of base 10 starting from 0
+ * main - Entry point of the program
+ * Description - prints all single numbers of base 10
  * followed by a new line, using putchar
  * Return: Always 0 (Sucess)
  */
