@@ -7,6 +7,13 @@ void print_alphabet(void);
 /**
 *print_alphabet - prints lowercase alphabets
 */
+
+int main(void)
+{
+print_alphabet();
+return 0;
+}
+
 void print_alphabet(void)
 {
 char la;
@@ -16,10 +23,3 @@ putchar(la);
 
 putchar('\n');
 }
-
-int main(void)
-{
-print_alphabet();
-return 0;
-}
-
