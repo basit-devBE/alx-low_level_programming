@@ -2,32 +2,26 @@
 
 /**
  * main - Entry point of the program
- * Description: Prints the first 50 Fibonacci numbers.
+ * Description: Prints the first 52 fibonacci numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int fib[50];
-int i;
+int i = 0;
+long j = 1, k = 2;
 
-
-fib[0] = 1;
-fib[1] = 2;
-
-
-for (i = 2; i < 50; i++)
+while (i < 50)
 {
-fib[i] = fib[i - 1] + fib[i - 2];
-}
-
-
-for (i = 0; i < 49; i++)
+if (i == 0)
+printf(", %ld", k);
+else
 {
-printf("%d, ", fib[i]);
+k += j;
+j = k - j;
+printf(", %ld", k);
 }
-
-
-printf("%d\n", fib[49]);
-
+++i;
+}
+printf("\n");
 return (0);
 }
