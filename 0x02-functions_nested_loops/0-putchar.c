@@ -8,7 +8,8 @@
 /**
 *main-print putchar followed by a new line
 *
-*Return :always 0
+*Return :always 0 (success code)
+*
 */
 int main(void)
 {
