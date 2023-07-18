@@ -7,6 +7,7 @@
  * main function - Returns a void value
  */
 int main(void)
+/*contains what the program does*/
 {
 printf("_putchar\n");
 return (0);
