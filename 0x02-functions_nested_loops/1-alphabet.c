@@ -1,6 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 
+/* Function prototype */
+void print_alphabet(void);
+
 /**
 * print_alphabet - prints lowercase alphabets
 */
@@ -17,5 +20,6 @@ putchar('\n');
 int main(void)
 {
 print_alphabet();
-return(0);
+return 0;
 }
+
