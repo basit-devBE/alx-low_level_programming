@@ -1,14 +1,18 @@
-#include <stdio.h>
-
-/*
- * main - Entry point of the program
- * Description - prints a program putchar
- * Return 0 (Representing sucess in the code)
- * main function - Returns a void value
+#include "main.h"
+/**
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 int main(void)
-/*contains what the program does*/
 {
-printf("_putchar\n");
+char *sh = "_putchar";
+
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+_putchar('\n');
+
 return (0);
 }
