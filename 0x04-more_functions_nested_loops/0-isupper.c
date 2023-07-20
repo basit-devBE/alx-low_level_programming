@@ -5,11 +5,11 @@
  * @c - character to be checked
  * Description: Prints the alphabet with _putchae
  * Return: void
- * */
+ */ 
 
 int _isupper(int c)
 {
-if (c >= 'A' && c <= 'Z')
+if (c >= 65 && c <= 90)
 {
 return (1);
 }
