@@ -1,8 +1,9 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _isupper - checks if a number is in upper or lower case
- * c - character to be checked
+ *@c - character to be checked
+ *Description: Prints the alphabet with _putchae
  * Return: 1 if c is uppercase or 0 if otherwise
  */
 
