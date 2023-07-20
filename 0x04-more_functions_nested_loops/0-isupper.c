@@ -2,10 +2,10 @@
 
 /**
  * _isupper - checks if a number is in upper or lower case
- * @c - character to be checked
  * Description: Prints the alphabet with _putchae
+ * @c: character to be checked
  * Return: void
- */ 
+ */
 
 int _isupper(int c)
 {
