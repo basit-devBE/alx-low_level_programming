@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * print_number - print an int numbers.
  * @n: number tested
@@ -14,7 +12,7 @@ unsigned int temp, numchar, number;
 digit = 0;
 if (n < 0)
 {
-putchar('-');
+_putchar('-');
 temp = -n;
 }
 else
@@ -42,7 +40,7 @@ j = power;
 while (j >= 1)
 {
 numchar = (temp / j) % 10;
-putchar(numchar + '0');
+_putchar(numchar + '0');
 j = j / 10;
 }
 }
