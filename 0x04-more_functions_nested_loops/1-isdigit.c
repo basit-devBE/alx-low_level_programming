@@ -1,24 +1,20 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * _isdigit - see if a character is a digit from 1-9
+ * Description: search for a digit from 1-9
+ * @c: character to be checked
+ * Return:1 for yes or 0 for no
+ */
 
 int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
 {
-retrun 1;
+return (1);
 }
 else
 {
-rteurn 0;
-}
-
-int main()
-{
-char c;
-
-c = '0';
-printf("%c: %d\n", c, _isdigit(c));
-c = 'a';
-printf("%c: %d\n", c,_isdigit(c));
 return (0);
-
+}
+}
