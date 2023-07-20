@@ -10,11 +10,11 @@
 
 void print_numbers(void)
 {
-char num;
+int num;
 
 for (num = 0; num <= 57; num++)
 {
-_putchar(num);
+putchar(num);
 }
-_putchar('\n');
+putchar('\n');
 }
