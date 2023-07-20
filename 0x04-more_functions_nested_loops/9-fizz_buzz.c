@@ -1,38 +1,30 @@
 #include <stdio.h>
 /**
- * fizz_buzz - function to test the integers
- * main - entry point of the program
- * Description: prints numbers from 1 to 100
- * and checks for fizz, buzz and fizzbuzz
- * @i: number to be checked
- * Return: 0(always sucess)
+ * main - entry point
+ *
+ * Description: prints FizzBuzz
+ *
+ * Return: void
  */
-void fizz_buzz(int i)
-{
-for (i = 1; i <= 100; i++)
-{
-if (i % 3 == 0 && i % 5 == 0)
-{
-printf("FizzBuzz ");
-}
-else if (i % 3 == 0)
-{
-printf("Fizz ");
-}
-else if (i % 5 == 0)
-{
-printf("Buzz ");
-}
-else
-{
-printf("%d ", i);
-}
-}
-}
-
 int main(void)
 {
-int i = 0;
-fizz_buzz(i);
+int n;
+
+for (n = 1; n <= 100; n++)
+{
+if ((n % 3 == 0) && (n % 5 == 0))
+printf("FizzBuzz");
+else if (n % 5 == 0)
+printf("Buzz");
+else if (n % 3 == 0)
+printf("Fizz");
+else
+printf("%i", n);
+
+if (n < 100)
+printf(" ");
+else
+printf("\n");
+}
 return (0);
 }
