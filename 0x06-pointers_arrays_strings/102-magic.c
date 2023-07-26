@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+ * main - Entry point of the program
+ * Decription: a program of array
+ * Return: 0(always success)
+ */
 int main(void)
 {
 int n;
