@@ -20,7 +20,7 @@ return (1);
 else if (y % 2 == 0)	/*if y is an even number*/
 {
 even = _pow_recursion(x, y / 2);
-return (even * even);
+return (even *even);
 }
 else			/*if y is odd*/
 return (x * _pow_recursion(x, y - 1));
